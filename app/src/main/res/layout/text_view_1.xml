@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textviewactivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/textviewactivity_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/tv_1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:text="@string/tv_text1"
+        android:ellipsize="end"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+
+    <TextView
+        android:id="@+id/tv_2"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+
+        android:maxLines="1"
+        android:text="我从小酷到大的"
+        android:ellipsize="end"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/tv_3"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+
+        android:maxLines="1"
+        android:drawableRight="@drawable/icon_arrow_off"
+        android:text="筛选"
+        android:ellipsize="end"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+    <TextView
+        android:id="@+id/tv_4"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+
+        android:maxLines="1"
+        android:text="我从小酷到大的"
+        android:ellipsize="end"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:textSize="24sp"
+        />
+<!--
+    android:text="@string/tv_text1"  也可以写成
+        android:text="我从小酷到大的"
+-->
+    <Button
+        android:id="@+id/tv_11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="TextView"/>
+
+
+</LinearLayout>
+
+
+<!--
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+</android.support.constraint.ConstraintLayout>-->
